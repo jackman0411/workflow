@@ -19,4 +19,4 @@ jobs:
 #        key: bazel
 #    - run: (cd hello-world && bazel build //... && echo hi)
     - name: Run Python Script
-      run: python check_duplicate_tests.py
+      run: python check_duplicate_names.py
