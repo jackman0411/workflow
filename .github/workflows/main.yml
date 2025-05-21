@@ -18,5 +18,10 @@ jobs:
 #        path: "~/.cache/bazel"
 #        key: bazel
 #    - run: (cd hello-world && bazel build //... && echo hi)
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
     - name: Run Python Script
       run: python check_duplicate_names.py
