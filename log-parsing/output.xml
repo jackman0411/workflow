@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.10.12 on linux)" generated="2025-05-21T15:39:31.926410" rpa="false" schemaversion="5">
+<suite id="s1" name="Log-Parsing" source="/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing">
+<suite id="s1-s1" name="Test" source="/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/test.robot">
+<test id="s1-s1-t1" name="&quot;Input Should Contain All Lines In File&quot; Should Pass For Single Line File" line="11">
+<kw name="Input Should Contain All Lines In File">
+<msg time="2025-05-21T15:39:31.936399" level="FAIL">No keyword with name 'Input Should Contain All Lines In File' found.</msg>
+<arg>"robot"</arg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/single-line.txt</arg>
+<status status="FAIL" start="2025-05-21T15:39:31.936380" elapsed="0.000044">No keyword with name 'Input Should Contain All Lines In File' found.</status>
+</kw>
+<doc>Verifies the functionality of "Input Should Contain All Lines In
+File" with a single line input.</doc>
+<tag>unit-test</tag>
+<timeout value="1 minute"/>
+<status status="FAIL" start="2025-05-21T15:39:31.935759" elapsed="0.000768">No keyword with name 'Input Should Contain All Lines In File' found.</status>
+</test>
+<test id="s1-s1-t2" name="&quot;Input Should Contain All Lines In File&quot; Should Fail For Single Line File" line="18">
+<kw name="Run Keyword And Expect Error" owner="BuiltIn">
+<kw name="Input Should Contain All Lines In File">
+<msg time="2025-05-21T15:39:31.937108" level="FAIL">No keyword with name 'Input Should Contain All Lines In File' found.</msg>
+<arg>"javascript"</arg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/single-line.txt</arg>
+<status status="FAIL" start="2025-05-21T15:39:31.937096" elapsed="0.000029">No keyword with name 'Input Should Contain All Lines In File' found.</status>
+</kw>
+<arg>*</arg>
+<arg>Input Should Contain All Lines In File</arg>
+<arg>"javascript"</arg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/single-line.txt</arg>
+<doc>Runs the keyword and checks that the expected error occurred.</doc>
+<status status="FAIL" start="2025-05-21T15:39:31.936810" elapsed="0.000343">No keyword with name 'Input Should Contain All Lines In File' found.</status>
+</kw>
+<doc>Verifies the functionality of "Input Should Contain All Lines In
+File" with a failing test.</doc>
+<tag>unit-test</tag>
+<timeout value="1 minute"/>
+<status status="FAIL" start="2025-05-21T15:39:31.936646" elapsed="0.000577">No keyword with name 'Input Should Contain All Lines In File' found.</status>
+</test>
+<test id="s1-s1-t3" name="&quot;Input Should Contain All Lines In File&quot; Should Pass For Multi Line File" line="25">
+<kw name="Input Should Contain All Lines In File">
+<msg time="2025-05-21T15:39:31.937705" level="FAIL">No keyword with name 'Input Should Contain All Lines In File' found.</msg>
+<arg>["robot", "framework"]</arg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/multiple-lines.txt</arg>
+<status status="FAIL" start="2025-05-21T15:39:31.937692" elapsed="0.000029">No keyword with name 'Input Should Contain All Lines In File' found.</status>
+</kw>
+<doc>Verifies the functionality of "Input Should Contain All Lines In
+File" with multiple lines as input.</doc>
+<tag>unit-test</tag>
+<timeout value="1 minute"/>
+<status status="FAIL" start="2025-05-21T15:39:31.937330" elapsed="0.000466">No keyword with name 'Input Should Contain All Lines In File' found.</status>
+</test>
+<test id="s1-s1-t4" name="&quot;Input Should Contain All Lines In File&quot; Should Fail For Multi Line File" line="32">
+<kw name="Run Keyword And Expect Error" owner="BuiltIn">
+<kw name="Input Should Contain All Lines In File">
+<msg time="2025-05-21T15:39:31.938322" level="FAIL">No keyword with name 'Input Should Contain All Lines In File' found.</msg>
+<arg>["robot"]</arg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/multiple-lines.txt</arg>
+<status status="FAIL" start="2025-05-21T15:39:31.938310" elapsed="0.000027">No keyword with name 'Input Should Contain All Lines In File' found.</status>
+</kw>
+<arg>*</arg>
+<arg>Input Should Contain All Lines In File</arg>
+<arg>["robot"]</arg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/multiple-lines.txt</arg>
+<doc>Runs the keyword and checks that the expected error occurred.</doc>
+<status status="FAIL" start="2025-05-21T15:39:31.938045" elapsed="0.000318">No keyword with name 'Input Should Contain All Lines In File' found.</status>
+</kw>
+<doc>Verifies the functionality of "Input Should Contain All Lines In
+File" with multiple lines as input failing.</doc>
+<tag>unit-test</tag>
+<timeout value="1 minute"/>
+<status status="FAIL" start="2025-05-21T15:39:31.937898" elapsed="0.000531">No keyword with name 'Input Should Contain All Lines In File' found.</status>
+</test>
+<test id="s1-s1-t5" name="&quot;Input Should Contain Any Line In File&quot; Should Pass For Multi Line File" line="39">
+<kw name="Input Should Contain Any Line In File">
+<msg time="2025-05-21T15:39:31.938908" level="FAIL">No keyword with name 'Input Should Contain Any Line In File' found.</msg>
+<arg>["robot"]</arg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/multiple-lines.txt</arg>
+<status status="FAIL" start="2025-05-21T15:39:31.938894" elapsed="0.000029">No keyword with name 'Input Should Contain Any Line In File' found.</status>
+</kw>
+<doc>Verifies the functionality of "Input Should Contain Any Line In
+File" with multiple lines as input.</doc>
+<tag>unit-test</tag>
+<timeout value="1 minute"/>
+<status status="FAIL" start="2025-05-21T15:39:31.938534" elapsed="0.000457">No keyword with name 'Input Should Contain Any Line In File' found.</status>
+</test>
+<test id="s1-s1-t6" name="&quot;Input Should Contain Any Line In File&quot; Should Fail For Multi Line File" line="46">
+<kw name="Run Keyword And Expect Error" owner="BuiltIn">
+<kw name="Input Should Contain Any Line In File">
+<msg time="2025-05-21T15:39:31.939516" level="FAIL">No keyword with name 'Input Should Contain Any Line In File' found.</msg>
+<arg>["javascript"]</arg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/multiple-lines.txt</arg>
+<status status="FAIL" start="2025-05-21T15:39:31.939504" elapsed="0.000027">No keyword with name 'Input Should Contain Any Line In File' found.</status>
+</kw>
+<arg>*</arg>
+<arg>Input Should Contain Any Line In File</arg>
+<arg>["javascript"]</arg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/multiple-lines.txt</arg>
+<doc>Runs the keyword and checks that the expected error occurred.</doc>
+<status status="FAIL" start="2025-05-21T15:39:31.939229" elapsed="0.000327">No keyword with name 'Input Should Contain Any Line In File' found.</status>
+</kw>
+<doc>Verifies the functionality of "Input Should Contain Any Line In
+File" with multiple lines as input failing.</doc>
+<tag>unit-test</tag>
+<timeout value="1 minute"/>
+<status status="FAIL" start="2025-05-21T15:39:31.939089" elapsed="0.000533">No keyword with name 'Input Should Contain Any Line In File' found.</status>
+</test>
+<test id="s1-s1-t7" name="&quot;Lines In File A Should All Be In File B&quot; Should Pass" line="53">
+<kw name="Lines In File A Should All Be In File B">
+<msg time="2025-05-21T15:39:31.940148" level="FAIL">No keyword with name 'Lines In File A Should All Be In File B' found.</msg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/short-file.txt</arg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/long-file.txt</arg>
+<status status="FAIL" start="2025-05-21T15:39:31.940134" elapsed="0.000031">No keyword with name 'Lines In File A Should All Be In File B' found.</status>
+</kw>
+<doc>Verifies the functionality of "Lines In File A Should All Be
+In File B".</doc>
+<tag>unit-test</tag>
+<timeout value="1 minute"/>
+<status status="FAIL" start="2025-05-21T15:39:31.939719" elapsed="0.000520">No keyword with name 'Lines In File A Should All Be In File B' found.</status>
+</test>
+<test id="s1-s1-t8" name="&quot;Lines In File A Should All Be In File B&quot; Should Fail" line="60">
+<kw name="Run Keyword And Expect Error" owner="BuiltIn">
+<kw name="Lines In File A Should All Be In File B">
+<msg time="2025-05-21T15:39:31.940815" level="FAIL">No keyword with name 'Lines In File A Should All Be In File B' found.</msg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/long-file.txt</arg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/short-file.txt</arg>
+<status status="FAIL" start="2025-05-21T15:39:31.940803" elapsed="0.000028">No keyword with name 'Lines In File A Should All Be In File B' found.</status>
+</kw>
+<arg>*</arg>
+<arg>Lines In File A Should All Be In File B</arg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/long-file.txt</arg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/short-file.txt</arg>
+<doc>Runs the keyword and checks that the expected error occurred.</doc>
+<status status="FAIL" start="2025-05-21T15:39:31.940540" elapsed="0.000318">No keyword with name 'Lines In File A Should All Be In File B' found.</status>
+</kw>
+<doc>Verifies the functionality of "Lines In File A Should All Be
+In File B failing".</doc>
+<tag>unit-test</tag>
+<timeout value="1 minute"/>
+<status status="FAIL" start="2025-05-21T15:39:31.940344" elapsed="0.000583">No keyword with name 'Lines In File A Should All Be In File B' found.</status>
+</test>
+<test id="s1-s1-t9" name="&quot;File Should Contain&quot; Should Pass" line="67">
+<kw name="File Should Contain">
+<msg time="2025-05-21T15:39:31.941418" level="FAIL">No keyword with name 'File Should Contain' found. Did you mean:
+    BuiltIn.Should Contain</msg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/short-file.txt</arg>
+<arg>robot</arg>
+<status status="FAIL" start="2025-05-21T15:39:31.941405" elapsed="0.000030">No keyword with name 'File Should Contain' found. Did you mean:
+    BuiltIn.Should Contain</status>
+</kw>
+<doc>Verifies the functionality of "File Should Contain".</doc>
+<tag>unit-test</tag>
+<timeout value="1 minute"/>
+<status status="FAIL" start="2025-05-21T15:39:31.941028" elapsed="0.000481">No keyword with name 'File Should Contain' found. Did you mean:
+    BuiltIn.Should Contain</status>
+</test>
+<test id="s1-s1-t10" name="&quot;File Should Contain&quot; Should Fail" line="73">
+<kw name="Run Keyword And Expect Error" owner="BuiltIn">
+<kw name="File Should Contain">
+<msg time="2025-05-21T15:39:31.942059" level="FAIL">No keyword with name 'File Should Contain' found. Did you mean:
+    BuiltIn.Should Contain</msg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/short-file.txt</arg>
+<arg>robotics</arg>
+<status status="FAIL" start="2025-05-21T15:39:31.942047" elapsed="0.000029">No keyword with name 'File Should Contain' found. Did you mean:
+    BuiltIn.Should Contain</status>
+</kw>
+<arg>*</arg>
+<arg>File Should Contain</arg>
+<arg>/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/short-file.txt</arg>
+<arg>robotics</arg>
+<doc>Runs the keyword and checks that the expected error occurred.</doc>
+<status status="FAIL" start="2025-05-21T15:39:31.941761" elapsed="0.000340">No keyword with name 'File Should Contain' found. Did you mean:
+    BuiltIn.Should Contain</status>
+</kw>
+<doc>Verifies the functionality of "File Should Contain"
+failing.</doc>
+<tag>unit-test</tag>
+<timeout value="1 minute"/>
+<status status="FAIL" start="2025-05-21T15:39:31.941613" elapsed="0.000555">No keyword with name 'File Should Contain' found. Did you mean:
+    BuiltIn.Should Contain</status>
+</test>
+<status status="FAIL" start="2025-05-21T15:39:31.935197" elapsed="0.007145"/>
+</suite>
+<status status="FAIL" start="2025-05-21T15:39:31.926817" elapsed="0.015736"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="10" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="10" skip="0">unit-test</stat>
+</tag>
+<suite>
+<stat pass="0" fail="10" skip="0" id="s1" name="Log-Parsing">Log-Parsing</stat>
+<stat pass="0" fail="10" skip="0" id="s1-s1" name="Test">Log-Parsing.Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-05-21T15:39:31.935554" level="ERROR">Error in file '/home/jason/codebase1/Pegasus/githubAction/workflow/log-parsing/test.robot' on line 8: Resource file 'resources/common.resource' does not exist.</msg>
+</errors>
+</robot>
