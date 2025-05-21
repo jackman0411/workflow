@@ -76,3 +76,11 @@ Resource  resources/common.resource
    [Timeout]          1 min
    [Tags]             unit-test
    Run Keyword And Expect Error  *  File Should Contain    ${CURDIR}/short-file.txt    robotics
+
+"File Should Contain" Should Fail
+   [Documentation]    Verifies the functionality of "File Should Contain"
+   ...                failing.
+   [Timeout]          1 min
+   [Tags]             unit-test
+   Run Keyword And Expect Error  *  File Should Contain    ${CURDIR}/short-file.txt    robotics
+
